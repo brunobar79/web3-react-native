@@ -5,7 +5,7 @@ import Web3Manager from './utils/Web3Manager';
 
 import { resetMnemonic } from './NATIVE/keychainOps';
 
-export class ContainerComponent extends Component {
+export default class ContainerComponent extends Component {
   render(){
     return (
       <View>
